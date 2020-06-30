@@ -48,3 +48,34 @@ def fxyz(a):
 y = fxyz(3)
 # print(x,y) # 2, 9
 
+''' Problem 7 '''
+''' Write a function count_digits to find number of digits in the given number '''
+def count_digits(x):
+  x = x
+  return x
+x = count_digits(str(12345))
+# print(len(x))
+
+
+'''Problem 8'''
+''' Write a function istrcmp to compare two strings, ignoring the case. '''
+''' >>> istrcmp('python', 'Python')
+True
+>>> istrcmp('LaTeX', 'Latex')
+True
+>>> istrcmp('a', 'b')
+False '''
+def python(a, b):
+  a == b
+  return True
+lang = python('python', 'Python')
+# print(lang) # True
+
+def latex(c, d):
+  c == d
+  return True
+glove = latex('LaTeX', 'Latex')
+# print(glove) # True
+
+
+

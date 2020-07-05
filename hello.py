@@ -95,3 +95,9 @@ alpha = istrcmp3('a', 'b')
 # print(2 < 3 or not 3 > 1) # True
 # print(2 < 3 and not 3 > 1) # False
 
+''' Problem 10 '''
+''' What will be the output? '''
+x = 4
+y = 5
+p = x < y or x < z
+print(p) # True

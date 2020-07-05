@@ -54,8 +54,7 @@ def count_digits(x):
   x = x
   return x
 x = count_digits(str(12345))
-# print(len(x))
-
+# print(len(x)) # 5
 
 '''Problem 8'''
 ''' Write a function istrcmp to compare two strings, ignoring the case. '''

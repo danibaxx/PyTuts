@@ -64,17 +64,29 @@ True
 True
 >>> istrcmp('a', 'b')
 False '''
-def python(a, b):
-  a == b
-  return True
-lang = python('python', 'Python')
+def istrcmp1(a, b):
+  if a.lower() == b.lower():
+    return True
+  else:
+    return False
+lang = istrcmp1('python', 'Python')
 # print(lang) # True
 
-def latex(c, d):
-  c == d
-  return True
-glove = latex('LaTeX', 'Latex')
+def istrcmp2(c, d):
+  if c.lower() == d.lower():
+    return True
+  else:
+    return False
+glove = istrcmp2('LaTeX', 'Latex')
 # print(glove) # True
+
+def istrcmp3(e,f):
+  if e.lower() == f.lower():
+    return True
+  else:
+    return False
+alpha = istrcmp3('a', 'b')
+# print(alpha) # False
 
 
 

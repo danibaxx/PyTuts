@@ -104,9 +104,18 @@ p = x < y or x < z
 
 ''' Problem 11 '''
 ''' What will happen when the code is executed? Will it give any error? Explain. '''
-x = 2
-if x == 2:
-  print(x)
-else:
-  print(y)
+# x = 2
+# if x == 2:
+#   print(x)
+# else:
+#   print(y)
   # I think the following code will run since x = 2 it will only run the if block and print x, no error will be given as the else block will not run.
+
+''' Problem 12 '''
+''' What will happen when the code is executed? Will it give any error? Explain. '''
+# x = 2
+# if x == 2:
+#   print(x)
+# else:
+  # x + 
+# Before running this block of code, I figured it would of still ran even with the invalid syntax but after running it, I have realized this wont work at all due to the syntax errors.

@@ -88,5 +88,10 @@ def istrcmp3(e,f):
 alpha = istrcmp3('a', 'b')
 # print(alpha) # False
 
-
+''' Problem 9 '''
+''' What will be the output? '''
+# print(2 < 3 and 3 > 1) # True
+# print(2 < 3 or 3 > 1) # True
+# print(2 < 3 or not 3 > 1) # True
+# print(2 < 3 and not 3 > 1) # False
 

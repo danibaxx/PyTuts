@@ -100,4 +100,13 @@ alpha = istrcmp3('a', 'b')
 x = 4
 y = 5
 p = x < y or x < z
-print(p) # True
+# print(p) # True
+
+''' Problem 11 '''
+''' What will happen when the code is executed? Will it give any error? Explain. '''
+x = 2
+if x == 2:
+  print(x)
+else:
+  print(y)
+  # I think the following code will run since x = 2 it will only run the if block and print x, no error will be given as the else block will not run.

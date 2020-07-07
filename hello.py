@@ -99,6 +99,7 @@ alpha = istrcmp3('a', 'b')
 ''' What will be the output? '''
 x = 4
 y = 5
+z = []
 p = x < y or x < z
 # print(p) # True
 
